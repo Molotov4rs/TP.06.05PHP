@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    background-image: url('img/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for dropdown links */
+.dropdown-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #212529;
+    white-space: nowrap;
+  }
+
+  .logo {
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+    margin-right: 0; /* Reset margin-right */
+    padding-right: 185px; /* Add padding to the right */
+    margin-top: 0; /* Reset margin-right */
+    padding-top: 25px; /* Add padding to the right */
+  }
+
